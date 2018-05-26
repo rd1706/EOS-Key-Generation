@@ -156,13 +156,14 @@ var render = ({
   eth_balance, eos_balance, publicKey, buyWindow,
 }) => <div>
   <p style={{ width: "95%" }}>
-
+    Этот скрипт генерирует приватный и публичный ключи для EOS кошельков.<br>
+    Код создан на основе кода кода от команды EOS и работает в любом браузере без использования каких-либо плагинов.<br>
     This will generate a private and public key pair for the EOS chain. The code is not mine.
     It is forked from the code the EOS team built. The difference is that this works in any browser without the web3 dependency.
     It will work in any browser and you don't need any plugins. I've also removed everything else except the key generation bits.
 
   </p>
-  Source code can be reviewed here: <a href="https://github.com/Nadejde/eos-token-sale">https://github.com/Nadejde/eos-token-sale</a>.
+  Исходный код здесь: <a href="https://github.com/rd1706/eos-token-sale">https://github.com/rd1706/eos-token-sale</a>.
   <br />
   <br />
   <strong> If you found this helpful please consider making a small donation (ETH): 0x0bbe518debf97fb2e27d955b050cbd1e8ca90264 </strong>
